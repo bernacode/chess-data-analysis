@@ -47,16 +47,16 @@ El proyecto sigue una estructura estandarizada (basada en *Cookiecutter Data Sci
 │   └── processed/          # Datos limpios (opcional)
 │
 ├── notebooks/
-│   ├── lichess_games.ipynb # 📓 Notebook principal de análisis
-│   └── drafts/             # Pruebas y borradores
+│   ├── 01_exploracion.ipynb # Pruebas y borradores
+│   └── 02_analisis.ipynb    # Notebook final, analisis
 │
-├── src/                    # ⚙️ Código fuente y scripts auxiliares
+├── src/                    #  Código fuente y scripts auxiliares
 │   ├── __init__.py
-│   └── save_figure.py      # Script para exportar gráficos
+│   └── save_figure.py      #  Script para exportar gráficos
 │
-├── figures/                # 📈 Gráficos generados por el código
+├── figures/                #  Gráficos generados por el código
 │
-├── reports/                # 📄 Reportes finales y conclusiones
+├── reports/                #  Reportes finales y conclusiones
 │
 └── requirements.txt        # Dependencias del proyecto
 ```
@@ -80,3 +80,19 @@ El proyecto sigue una estructura estandarizada (basada en *Cookiecutter Data Sci
 ### 3. Explorar el analisis
 
 Abre el archivo notebooks/02_analisis.ipynb en tu editor favorito (VS Code o Jupyter Lab).
+
+---
+
+## 📄 Sobre los Datos
+
+- Fuente: Dataset público de partidas de Lichess (Kaggle) [https://www.kaggle.com/datasets/datasnaek/chess]
+
+- Volumen: ~20,000 partidas.
+
+---
+
+<div align="center">
+
+Desarrollado con ❤️ y mucho ☕ por BernaCode
+
+</div>

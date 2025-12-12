@@ -1,0 +1,12 @@
+# Dependencias recomendadas para el proyecto
+pandas>=2.0
+numpy>=1.25
+matplotlib>=3.7
+seaborn>=0.13
+plotly>=5.15
+scikit-learn>=1.3
+scipy>=1.10
+python-chess>=1.999
+tqdm>=4.65
+jupyterlab>=4.0
+notebook>=7.0

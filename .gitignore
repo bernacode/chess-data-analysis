@@ -1,8 +1,38 @@
-venv/
-.venv/
+# --- Byte-compiled / Caché de Python ---
 __pycache__/
-.ipynb_checkpoints/
-data/raw/
-figures/exploratory/
-*.pyc
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebooks ---
+# Estos son archivos temporales de autoguardado que ensucian el historial
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Entornos Virtuales ---
+# Nunca subir las librerías instaladas, solo el requirements.txt
+env/
+venv/
+.env
+.venv/
+
+# --- IDEs y Editores ---
+# Configuraciones locales de tu VS Code que no le sirven a nadie más
+.vscode/
+.idea/
+
+# --- Datos ---
+# Ignoramos los CSV dentro de la carpeta data para que no pesen
+# Si quieres subir un CSV pequeño, pon un # al principio de la línea de abajo
+data/*.csv
+data/*.json
+*.zip
+*.rar
+
+# --- Archivos de Sistema Operativo ---
 .DS_Store
+Thumbs.db
+
+# --- Reportes generados (Opcional) ---
+# Si no quieres subir los reportes PDF/HTML cada vez
+# reports/*.html
+# reports/*.pdf
